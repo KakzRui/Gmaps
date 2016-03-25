@@ -1,4 +1,11 @@
 # Gmaps
+What the project is?
+When we run this application, it shows google map and below user can see the Addresses which are available in DB.
+When user clicks on the address, the pointer will be pin pointed in the google maps with exact locality of the address.
+User can change the address by dragging the pin point to his desired location and can save the new geo coordinates to the DB.
+
+Below are the softwares to be installed to run this project
+
 Install Python 2.7
 
 $ pip install Django==1.9.4
