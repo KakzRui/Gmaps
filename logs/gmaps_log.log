@@ -1,0 +1,93 @@
+2016-03-25 09:05:47,981 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Library/Python/2.7/site-packages/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 115, in get_callable
+    mod = import_module(mod_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/Users/manoj/Documents/gmaps/localities/views.py", line 30
+    logger.debug("Gemetry: "locality)
+                                   ^
+SyntaxError: invalid syntax
+2016-03-25 09:06:15,595 [INFO] Gmaps: Application Started
+2016-03-25 09:06:16,700 [WARNING] django.request: Not Found: /checkmark.png
+2016-03-25 09:06:24,519 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:17:15,664 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:19:51,477 [INFO] Gmaps: Application Started
+2016-03-25 09:19:57,829 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:20:18,617 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:26:01,649 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:31:56,004 [INFO] Gmaps: Application Started
+2016-03-25 09:32:08,394 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:34:11,616 [INFO] Gmaps: Application Started
+2016-03-25 09:34:11,616 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Library/Python/2.7/site-packages/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 115, in get_callable
+    mod = import_module(mod_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/Users/manoj/Documents/gmaps/localities/views.py", line 13, in <module>
+    @csrf_protect
+NameError: name 'csrf_protect' is not defined
+2016-03-25 09:34:39,416 [INFO] Gmaps: Application Started
+2016-03-25 09:34:48,967 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:35:27,035 [INFO] Gmaps: Application Started
+2016-03-25 09:35:27,036 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:35:28,453 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:36:37,074 [INFO] Gmaps: Application Started
+2016-03-25 09:36:48,439 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:48:15,366 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:48:24,163 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:55:13,344 [INFO] Gmaps: Application Started
+2016-03-25 09:55:19,071 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:55:20,560 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 09:55:29,218 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 10:11:19,958 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 10:11:40,950 [WARNING] django.request: Not Found: /favicon.ico
+2016-03-25 10:11:54,551 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 10:13:31,934 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 10:13:34,056 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 13:56:02,324 [INFO] Gmaps: Application Started
+2016-03-25 13:56:27,663 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 13:57:44,869 [INFO] Gmaps: Save
+2016-03-25 13:57:44,870 [ERROR] django.request: Internal Server Error: /save
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/manoj/Documents/gmaps/localities/views.py", line 33, in save
+    return HttpResponse(simplejson.dumps(dict(isOk=1)), mimetype='application/json')
+  File "/Library/Python/2.7/site-packages/django/http/response.py", line 283, in __init__
+    super(HttpResponse, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'mimetype'
+2016-03-25 13:59:25,461 [INFO] Gmaps: Application Started
+2016-03-25 13:59:25,462 [INFO] Gmaps: Save
+2016-03-25 13:59:33,710 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 13:59:58,943 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save
+2016-03-25 14:00:56,199 [WARNING] django.request: Forbidden (CSRF cookie not set.): /save

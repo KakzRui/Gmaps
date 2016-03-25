@@ -1,0 +1,5 @@
+{% for locality in localities %}
+    <div id={{locality.id}} class='locality linkOFF'>
+        {{locality.name}} ({{locality.geometry.y}}, {{locality.geometry.x}})
+    </div>
+{% endfor %}
